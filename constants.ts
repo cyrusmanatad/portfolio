@@ -1,5 +1,14 @@
 
 import { SkillCategory, Experience, Project } from './types';
+import Ucc from  "./assets/ui-ucc.jpg";
+import JobFinder from "./assets/ui-jobfinder.jpg";
+import EBusinessCard from "./assets/ui-ebusinesscard.jpg";
+import Sams from "./assets/ui-sams.jpg";
+import PHCare from "./assets/ui-phcare.jpg";
+import Lactezin from "./assets/ui-lactezin.jpg";
+import Fortima from "./assets/ui-fortima.jpg";
+import GynePro from "./assets/ui-gynepro.jpg";
+import C1Ulisys from "./assets/ui-c1ulisys.jpg";
 
 export const skillsData: SkillCategory[] = [
   {
@@ -11,7 +20,7 @@ export const skillsData: SkillCategory[] = [
   {
     category: 'Frontend',
     skills: [
-      { name: 'HTML/CSS' }, { name: 'JavaScript' }, { name: 'jQuery' }, { name: 'Bootstrap 5' }, { name: 'ReactJS' }, { name: 'Tailwind CSS' }, { name: 'Shadcn UI' },
+      { name: 'HTML/CSS' }, { name: 'JavaScript' }, { name: 'jQuery' }, { name: 'Bootstrap 5' }, { name: 'ReactJS' }, { name: 'Vue.js' }, { name: 'Tailwind CSS' }, { name: 'Shadcn UI' },
     ],
   },
   {
@@ -54,39 +63,57 @@ export const experienceData: Experience[] = [
 
 export const projectsData: Project[] = [
   {
-    title: 'Order Entry Application',
+    title: 'Unahco Order Entry Application',
     description: 'A comprehensive system for managing sales orders with seamless integration with Oracle databases.',
-    imageUrl: 'https://picsum.photos/seed/order-entry/500/300',
-    technologies: ['PHP', 'CodeIgniter', 'Oracle DB', 'ReactJS', 'REST API'],
+    imageUrl: Ucc,
+    technologies: ['PHP', 'CodeIgniter 3', 'Oracle BI', 'MySQL', 'SMS', 'Sendgrid', 'REST API', 'SOAP', 'XML', 'Docker'],
   },
   {
-    title: 'Recruitment Process Automation',
-    description: 'An automated platform to streamline candidate sourcing, application tracking, and interview scheduling.',
-    imageUrl: 'https://picsum.photos/seed/recruitment-automation/500/300',
-    technologies: ['PHP', 'Laravel', 'MySQL', 'jQuery', 'Bootstrap'],
+    title: 'E-Business Card',
+    description: 'A digital business card application that allows users to create, share, and manage their professional digital business card online.',
+    imageUrl: EBusinessCard,
+    technologies: ['PHP', 'CodeIgniter 4', 'MySQL', 'jQuery', 'Bootstrap 5', 'REST API'],
   },
   {
-    title: 'Contract Automation System',
-    description: 'A tool that generates and manages legal contracts automatically, including PDF generation.',
-    imageUrl: 'https://picsum.photos/seed/contract-system/500/300',
-    technologies: ['PHP', 'CodeIgniter', 'TCPDF', 'JavaScript', 'Tailwind CSS'],
-  },
-   {
-    title: 'HR Information System',
-    description: 'A centralized HRIS for employee data management, payroll, and leave tracking.',
-    imageUrl: 'https://picsum.photos/seed/hris/500/300',
-    technologies: ['PHP', 'MySQL', 'ReactJS', 'Docker', 'Nginx'],
+    title: 'Communities of One - Unilab Systems',
+    description: 'An application designed to facilitate unilab sales representatives in managing their client communities.',
+    imageUrl: C1Ulisys,
+    technologies: ['PHP', 'CodeIgniter 4', 'MySQL', 'MSSQL', 'MDX', 'CUBE Reports', 'jQuery', 'Bootstrap 5'],
   },
   {
-    title: 'Healthcare Records Portal',
-    description: 'A secure web portal for patients to access their medical records and communicate with providers.',
-    imageUrl: 'https://picsum.photos/seed/healthcare-portal/500/300',
-    technologies: ['PHP', 'CodeIgniter', 'Bootstrap', 'jQuery', 'AWS'],
+    title: 'SAMS (Supplier Audit Management System)',
+    description: 'A web-based application to manage and streamline supplier audits, evaluations, and compliance tracking.',
+    imageUrl: Sams,
+    technologies: ['PHP', 'CodeIgniter 3', 'MySQL', 'jQuery', 'jQuery UI', 'Bootstrap 3', 'Docker'],
   },
-    {
-    title: 'E-commerce Platform',
-    description: 'A full-featured e-commerce site with product management, shopping cart, and payment gateway integration.',
-    imageUrl: 'https://picsum.photos/seed/ecommerce/500/300',
-    technologies: ['Laravel', 'ReactJS', 'Stripe API', 'Tailwind CSS', 'MariaDB'],
+  {
+    title: 'Job Finder Platform',
+    description: 'A job listing and application platform that connects job seekers with employers, featuring advanced search and application tracking functionalities.',
+    imageUrl: JobFinder,
+    technologies: ['Personal Project', 'PHP', 'Laravel 12', 'MySQL', 'Vue.js', 'axios', 'REST API', 'Tailwind CSS'],
   },
+  {
+    title: 'pH Care',
+    description: 'Official website of pH Care, a leading feminine hygiene brand offering a range of products for women\'s health and wellness.',
+    imageUrl: PHCare,
+    technologies: ['PHP', 'CodeIgniter 3', 'MySQL', 'Docker', 'jQuery', 'AJAX', 'Bootstrap 4', 'HTML5', 'CSS3', 'JavaScript'],
+  },
+  {
+    title: 'Lactezin',
+    description: 'Official website of Lactezin, It is the first over-the-counter drug registered anti-acne treatment in the Philippines.',
+    imageUrl: Lactezin,
+    technologies: ['PHP', 'CodeIgniter 3', 'MySQL', 'jQuery', 'AJAX', 'Bootstrap 4', 'HTML5', 'CSS3', 'JavaScript'],
+  },
+  {
+    title: 'Fortima',
+    description: 'Official website of Fortima, a dietary supplement that helps boost skin health and immunity.',
+    imageUrl: Fortima,
+    technologies: ['PHP', 'CodeIgniter 3', 'MySQL', 'jQuery', 'AJAX', 'Bootstrap 4', 'HTML5', 'CSS3', 'JavaScript'],
+  },
+  {
+    title: 'GynePro',
+    description: 'Official website of GynePro, a feminine wash brand that helps maintain intimate hygiene and freshness during red days.',
+    imageUrl: GynePro,
+    technologies: ['PHP', 'CodeIgniter 3', 'MySQL', 'jQuery', 'AJAX', 'Bootstrap 4', 'HTML5', 'CSS3', 'JavaScript'],
+  }
 ];

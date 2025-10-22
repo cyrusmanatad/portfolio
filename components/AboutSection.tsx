@@ -14,7 +14,13 @@ const AboutSection: React.FC = () => {
         </div>
         <div className="md:col-span-3">
           <p className="text-lg text-gray-400 mb-6 leading-relaxed">
-            I’m an experienced web developer with 7+ years in the IT industry, known for creating efficient, scalable web applications. I enjoy solving problems, optimizing code, and delivering seamless user experiences.
+            I’m a passionate Web Developer with over 7 years of experience building and supporting web applications that make a real difference for users and businesses.
+          </p>
+          <p className="text-lg text-gray-400 mb-6 leading-relaxed">
+            I love creating clean, reliable, and scalable web solutions using PHP (CodeIgniter, Laravel), JavaScript, MySQL/MariaDB, and modern front-end tools like Bootstrap, Tailwind CSS, and ReactJS. Over the years, I’ve worked on projects that involve everything from custom CMS builds and API integrations (REST & SOAP) to Single Sign-On (SSO) setups with Azure Entra ID and LDAP.
+          </p>
+          <p className="text-lg text-gray-400 mb-6 leading-relaxed">
+            I’m also big on process efficiency, like using Docker, AWS, and GitLab CI/CD to ensure smoother deployments and consistent environments. I enjoy solving technical challenges, mentoring teammates, and improving systems so everything runs faster and smarter.
           </p>
           <div className="flex flex-wrap gap-4">
             <div className="flex items-center bg-navy-light p-3 rounded-md shadow-md">
