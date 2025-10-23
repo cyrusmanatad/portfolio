@@ -2,6 +2,7 @@
 import React from 'react';
 import Section from './Section';
 import { CodeIcon, PhpIcon, CloudIcon } from './IconComponents';
+import Profile from '/assets/ui-profile.jpg';
 
 const AboutSection: React.FC = () => {
   return (
@@ -9,7 +10,7 @@ const AboutSection: React.FC = () => {
       <div className="grid md:grid-cols-5 gap-12 items-center">
         <div className="md:col-span-2">
             <div className="p-2 border-2 border-accent rounded-lg shadow-lg">
-                 <img src="https://picsum.photos/seed/cyrus-manatad/400/400" alt="Cyrus Manatad" className="w-full h-full object-cover rounded-md" />
+                 <img src={Profile} alt="Cyrus Manatad" className="w-full h-full object-cover rounded-md" />
             </div>
         </div>
         <div className="md:col-span-3">
