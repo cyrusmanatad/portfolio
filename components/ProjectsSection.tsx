@@ -21,7 +21,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => (
       </div>
     </div>
      <div className="absolute inset-0 bg-navy bg-opacity-90 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-      <a href="#" className="border-2 border-accent text-accent font-semibold py-2 px-4 rounded-md hover:bg-accent hover:text-white transition-all duration-300">View Details</a>
+      <a target={project.url === "#" ? "_self" : "_blank"} href={project.url === "#" ? "#" : project.url} className="border-2 border-accent text-accent font-semibold py-2 px-4 rounded-md hover:bg-accent hover:text-white transition-all duration-300">View Details</a>
     </div>
   </div>
 );
