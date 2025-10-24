@@ -9,32 +9,41 @@ import Lactezin from "./assets/ui-lactezin.jpg";
 import Fortima from "./assets/ui-fortima.jpg";
 import GynePro from "./assets/ui-gynepro.jpg";
 import C1Ulisys from "./assets/ui-c1ulisys.jpg";
+import CILogo from "./assets/logo-ci.png";
+import MySQLLogo from "./assets/logo-mysql.png";
+import ShadcnLogo from "./assets/logo-shadcn.png";
+import PleskLogo from "./assets/logo-plesk.png";
+import AwsLogo from "./assets/logo-aws.png";
+import ViteLogo from "./assets/logo-vite.png";
+import TsLogo from "./assets/logo-ts.png";
+import NpmLogo from "./assets/logo-npm.png";
+import PHPLogo from "./assets/logo-php.png";
 
 export const skillsData: SkillCategory[] = [
   {
     category: 'Backend',
     skills: [
-      { name: 'PHP 8.4' }, { name: 'CodeIgniter 3 & 4' }, { name: 'Laravel 12' }, { name: 'MySQL' }, { name: 'MariaDB' },
+      { name: 'PHP8', iconUrl: PHPLogo }, { name: 'CodeIgniter', iconUrl: CILogo }, { name: 'Laravel' }, { name: 'MySQL8', iconUrl: MySQLLogo }, { name: 'MariaDB' },
     ],
   },
   {
     category: 'Frontend',
     skills: [
-      { name: 'HTML/CSS' }, { name: 'JavaScript' }, { name: 'jQuery' }, { name: 'Bootstrap 5' }, { name: 'ReactJS' }, { name: 'Vue.js' }, { name: 'Tailwind CSS' }, { name: 'Shadcn UI' },
+      { name: 'HTML5' }, { name: 'CSS3' }, { name: 'JavaScript' }, { name: 'Typescript' }, { name: 'jQuery' }, { name: 'Bootstrap' }, { name: 'React' }, { name: 'Vue.js' }, {name: 'NPM'}, { name: 'Vite_', iconUrl: ViteLogo }, { name: 'Tailwind CSS' }, { name: 'ShadCN', iconUrl: ShadcnLogo},
     ],
   },
   {
     category: 'DevOps & Tools',
     skills: [
-      { name: 'Docker' }, { name: 'AWS' }, { name: 'GitLab CI/CD' }, { name: 'Apache' }, { name: 'Nginx' }, { name: 'Plesk' },
+      { name: 'Docker' }, { name: 'GitLab' }, { name: 'Apache' }, { name: 'Nginx' }, { name: 'Plesk', iconUrl : PleskLogo }, { name: 'AWS', iconUrl: AwsLogo },
     ],
   },
-  {
-    category: 'Other Skills',
-    skills: [
-      { name: 'SDLC' }, { name: 'Agile Methodologies' }, { name: 'SOAP/XML' }, { name: 'REST API Design' },
-    ],
-  },
+  // {
+  //   category: 'Other Skills',
+  //   skills: [
+  //     { name: 'SDLC' }, { name: 'Agile Methodologies' }, { name: 'soap' }, {name: 'xml'}, { name: 'REST API Design' },
+  //   ],
+  // },
 ];
 
 export const experienceData: Experience[] = [
