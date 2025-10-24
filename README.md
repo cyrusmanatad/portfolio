@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/cyrusmanatad/Portfolio/blob/main/assets/ui-hero.JPG" />
+<img width="1200" height="475" alt="profile banner" src="https://github.com/cyrusmanatad/porfolio/blob/main/assets/ui-hero.JPG" />
 </div>
 
 # Cyrus Manatad - Portfolio
