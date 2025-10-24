@@ -2,7 +2,7 @@
 import React from 'react';
 import Section from './Section';
 import { CodeIcon, PhpIcon, CloudIcon } from './IconComponents';
-import Profile from '/assets/ui-profile.jpg';
+import Profile from '/assets/ui-portfolio-profile.png';
 
 const AboutSection: React.FC = () => {
   return (
